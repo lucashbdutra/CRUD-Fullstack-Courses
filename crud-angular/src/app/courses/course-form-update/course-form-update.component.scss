@@ -1,0 +1,13 @@
+.full-width{
+  width: 100%;
+}
+mat-card{
+  max-width: 80%; //Tamanho máximo em relação a largura da página
+  margin: 2em auto; //"em" é o tamanho padrão da margem, isso significa 2x o tamanho padrão.
+  text-align: center;
+}
+
+.min-width{
+  width: 100%; //Isso aqui se refere a largura disponível, como é 80% então seria 100% de 80%
+  min-width: 150px;
+}
